@@ -1,0 +1,40 @@
+{
+  "colony_name": "The Cognitive Colony",
+  "version": "1.0.0",
+  "orchestrator": {
+    "name": "Claude",
+    "role": "COO / Strategist"
+  },
+  "manager": {
+    "name": "Antigravity",
+    "role": "Dispatcher / Architect"
+  },
+  "agents": [
+    {
+      "id": "mempalace",
+      "name": "MemPalace Engine",
+      "tier": 1,
+      "path": "/Users/rojios/Documents/Claude/Projects/mempalace",
+      "status": "external_standalone"
+    },
+    {
+      "id": "boardroom",
+      "name": "Agentic Boardroom",
+      "tier": 1,
+      "path": "/Users/rojios/Documents/Claude/Projects/Agentic Boardroom ",
+      "status": "external_standalone"
+    },
+    {
+      "id": "aicf",
+      "name": "Gemini AICF",
+      "tier": 2,
+      "path": "/Users/rojios/Documents/Claude/Projects/Gemini AICF",
+      "status": "external_standalone"
+    }
+  ],
+  "shared_resources": {
+    "inbox": "./shared/inbox",
+    "results": "./shared/results",
+    "logs": "./shared/logs"
+  }
+}
