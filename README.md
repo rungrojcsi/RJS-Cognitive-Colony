@@ -6,6 +6,10 @@ A personal multi-agent operating system — a hierarchical "colony" of AI agents
 
 ![Architecture — a hierarchy, not a swarm](docs/images/architecture.png)
 
+The diagram above is the shape of the system. The one below is the **current state** — how a task actually moves through it today, ground-truthed against operational memory rather than the docs, including the parts that are partial or regressed.
+
+![Colony Stack Map — current state](docs/images/colony-stack-map.png)
+
 ## Who it's for
 
 A single power user (the "Principal") who already relies on several AI tools and standalone projects, and wants them to act as one coordinated team instead of separate chats.
