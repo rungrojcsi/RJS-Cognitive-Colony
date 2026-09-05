@@ -4,6 +4,8 @@ A personal multi-agent operating system — a hierarchical "colony" of AI agents
 
 > **Status: Production (v0.98) — in active daily use.** The founders, consultant agents, memory stack, cost-aware routing, and dynamic orchestration loop are all running in real workloads. Remaining work is hardening and edge cases toward v1.0. This is a personal system in production use, not a commercial product.
 
+![Architecture — a hierarchy, not a swarm](docs/images/architecture.png)
+
 ## Who it's for
 
 A single power user (the "Principal") who already relies on several AI tools and standalone projects, and wants them to act as one coordinated team instead of separate chats.

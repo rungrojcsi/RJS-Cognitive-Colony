@@ -1,0 +1,10 @@
+{
+  "_meta": "Notional USD per 1M tokens (public list price). Provenance: Claude fallback — Gem research failed (Gemini free-tier 429 quota). Values approximate; cost is notional only (most engines are flat-rate/OAuth). Confidence: medium. Update when Gem quota recovers.",
+  "claude-opus-4-8": {"in": 5.00, "out": 25.00},
+  "claude-sonnet-4-6": {"in": 3.00, "out": 15.00},
+  "claude-haiku-4-5": {"in": 1.00, "out": 5.00},
+  "gemini-2.5-flash": {"in": 0.30, "out": 2.50},
+  "gemini-2.0-flash": {"in": 0.10, "out": 0.40},
+  "gpt-5-codex": {"in": 1.25, "out": 10.00},
+  "default": {"in": 1.00, "out": 5.00}
+}

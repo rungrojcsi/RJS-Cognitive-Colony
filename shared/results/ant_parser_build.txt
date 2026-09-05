@@ -1,0 +1,3 @@
+ก่อนเขียนสคริปต์ ขอดู `cost_ledger.py` ก่อนเพื่อเข้าใจ signature ของ `estimate_cost`
+เข้าใจ signature แล้ว ตอนนี้เขียนสคริปต์เลย
+ไฟล์เขียนสำเร็จ ตอนนี้รัน selftest และ --json:
