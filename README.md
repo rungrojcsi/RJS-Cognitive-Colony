@@ -10,6 +10,10 @@ The diagram above is the shape of the system. The one below is the **current sta
 
 ![Colony Stack Map — current state](docs/images/colony-stack-map.png)
 
+And this is the memory and retrieval path in detail — what the running console renders live: source and output at the edges, the Cognitive Brain in between, and the L1–L5 memory tiers each LLM reads and writes through.
+
+![Cognitive Brain — memory and retrieval stack](docs/images/cognitive-brain-stack.png)
+
 ## Who it's for
 
 A single power user (the "Principal") who already relies on several AI tools and standalone projects, and wants them to act as one coordinated team instead of separate chats.
