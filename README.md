@@ -2,7 +2,7 @@
 
 A personal multi-agent operating system — a hierarchical "colony" of AI agents that extends one person's thinking across many specialized models, each with its own memory, tools, and cost profile. Claude plans and synthesizes; other models scout, analyze, and execute; a human stays at the decision boundary.
 
-> **Status: early framework (v0.1 PHLD).** Foundation + agent workers + registry are working; the full orchestration loop and several design questions are still in draft. This is a personal architecture project, not a product.
+> **Status: Production (v0.98) — in active daily use.** The founders, consultant agents, memory stack, cost-aware routing, and dynamic orchestration loop are all running in real workloads. Remaining work is hardening and edge cases toward v1.0. This is a personal system in production use, not a commercial product.
 
 ## Who it's for
 
@@ -92,17 +92,17 @@ The Cognitive Colony - Dynamic Workflow Design.md   dynamic-orchestration design
 AGENTS.md / CLAUDE.md           founder identity + rules (L1 memory)
 ```
 
-## 7. Implementation (status)
+## 7. Implementation (status — v0.98, in production)
 
 | Item | Status |
 |------|--------|
-| Foundation + workspace structure | ✅ Done (Phase 1) |
-| Registry with external projects (memory / boardroom / research) | ✅ Done |
-| Agent roster v3.1 + `antigravity_worker.py` bridge | ✅ Working (Phase 2) |
-| Provider worker scripts (Grok / Deepseek / OpenRouter) | ✅ Present |
-| Cost ledger + pricing table | ✅ Present |
-| Memory stack L1–L5 wiring | 🚧 Partial (L1/L4/L5 usable) |
-| Full dynamic orchestration loop (intent → team → pivot → synthesis) | 🚧 Draft |
-| Open design questions (PHLD) | ⏳ 7 pending decisions |
+| Foundation + workspace structure | ✅ In production |
+| Registry with external projects (memory / boardroom / research) | ✅ In production |
+| Agent roster + `antigravity_worker.py` bridge | ✅ In production |
+| Provider worker scripts (Grok / Deepseek / OpenRouter) | ✅ In production |
+| Cost ledger + pricing table | ✅ In production |
+| Memory stack L1–L5 wiring | ✅ In production |
+| Full dynamic orchestration loop (intent → team → pivot → synthesis) | ✅ In production |
+| Hardening + edge cases toward v1.0 | 🚧 Remaining |
 
-> Concept and design docs (`HighLevelConcept.md`, the workflow design) are the source of truth for the intended full system; the code here is the working scaffold toward it.
+> Concept and design docs (`HighLevelConcept.md`, the workflow design) capture the full architecture; the code here is the running system that implements it.
